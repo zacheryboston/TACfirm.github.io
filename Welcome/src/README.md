@@ -1,9 +1,9 @@
 # STEP 1: Compiling and Running Java code
 
 ```
-javac Welcome.java
-java Welcome
-javadoc Welcome.java
+javac -d classes/ src/Welcome.java 
+java -cp classes Welcome
+javadoc src/Welcome.java -d docs/
 ```
 
 # STEP 2: Compiling and Running Java code in a package
