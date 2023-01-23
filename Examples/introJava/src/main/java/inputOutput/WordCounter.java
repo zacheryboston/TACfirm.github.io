@@ -27,7 +27,6 @@ public class WordCounter {
         String sentencePath2 = args[3];
 
         HashSet<String> dictionary = new HashSet<String>();
-        HashSet<String> dictionary2 = new HashSet<String>();
 
         try {
             dictionaryBuilder(worthPath, dictionary);
