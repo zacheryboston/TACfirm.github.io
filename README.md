@@ -11,3 +11,4 @@ Source code resources for the source material
   * [head-first-design-patterns](BooksCode/head-first-design-patterns)
 
 ## [Canvas](https://canvas.txstate.edu/courses/2051136)
+
