@@ -55,15 +55,13 @@ x--;
 
 prod = prod + y;
 
-}
-
 System.out.println(x+"\*"+y+"="+prod);
 
 }
 ```
 **Solution** [Product.java](Product.java)
 
-##Question 5
+## Question 5
 What is the output of the following program? Why?
 
 ```
@@ -80,7 +78,7 @@ class Test1 {
 
 **Solution** Run [Test1.java](Test1.java)
 
-##Question 6
+## Question 6
 In the "Monster United" video game, each player has a username and an icon (javax.swing.Icon), and can own zero or more monsters. Each monster has an nickname and a health value (a decimal number between 0 and 100). There are two types of monsters: snakes and ogres. Ogres can own up to 2 weapons. Implement a **skeleton** for this video game in Java. Each type of monster inflicts a certain amount of damage (an integer value between 0 and 20). The amount of damage for each monster is determined as follows:
 1. For a Snake, the damage is their health value divided by 100 plus 3.
 2. For an Ogre, the damage is: 5 if it has no weapons, 10 if it owns 1 weapon, and 20 if it owns 2 weapons
