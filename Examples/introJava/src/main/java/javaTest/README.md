@@ -44,7 +44,8 @@ class Main {
 ## Question 4
 Correct both by making minimal changes (e.g., don't completely rewrite the code – for example, don't redo the while loop as a for loop unless it's essential)
 
-```public class Product{
+```
+public class Product{
 
 int x = 5, y = 55, prod = 0;
 
