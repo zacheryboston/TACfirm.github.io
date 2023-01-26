@@ -1,4 +1,4 @@
-package inputOutput;
+package arrayList;
 /**
  * Write a description of class ValidateDemo here.
  *
