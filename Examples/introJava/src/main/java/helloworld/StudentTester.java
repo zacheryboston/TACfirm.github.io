@@ -13,10 +13,10 @@ public class StudentTester
       System.out.println(b.getName() + " " + " " + b.getGPA());
 
 	   a.addGrade(3, 1.0);
+      System.out.println(b.getName() + " " + " " + b.getGPA());
       System.out.println(a.getName() + " " + " " + a.getGPA());
-      System.out.println(a.getName() + " " + " " + b.getGPA());
       
       Student c = null;
-      System.out.println(c.getGPA());
+      //System.out.println(c.getGPA());
    }
 }

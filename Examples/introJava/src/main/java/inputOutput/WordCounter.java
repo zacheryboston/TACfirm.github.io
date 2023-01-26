@@ -8,6 +8,7 @@ import java.io.FileReader;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
+
 /**
  * Does something
  * @author Toufik
