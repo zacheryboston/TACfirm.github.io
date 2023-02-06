@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class StringLines {
     public static void main(String[] args) throws Exception {
         
-        String str = "CS3354\nis\nF2F\nin\nDerrick\n235\non\nThursday\n"; 
+        String str = "CS3354\nis\nF2F\nin\nDerrick\n240\non\nTuesday\n"; 
         System.out.println(str);
         System.out.println(str.lines().collect(Collectors.toList()));
     }

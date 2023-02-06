@@ -1,6 +1,5 @@
 package arrayList;
 
-
 public class ReverseArray{
    public static void main(String[] args) {
 	 //declare and initialize and array
@@ -8,7 +7,7 @@ public class ReverseArray{
  
 
       // Now output those integers in reverse
-      for (i = sequence.length - 1; i >= 0; --i) {
+      for (int i = sequence.length - 1; i >= 0; --i) {
          System.out.print(sequence[i] + ",");
       }
       System.out.println();

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class ValidateDemo {
     public static void main(String[] args) {
+        
         ArrayList<String> input = new ArrayList<String>();
         input.add("123-45-6789");
         input.add("9876-5-4321");

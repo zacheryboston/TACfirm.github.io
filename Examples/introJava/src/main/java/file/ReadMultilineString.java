@@ -14,7 +14,7 @@ public class ReadMultilineString {
  
     public static void main(String[] args) throws IOException, URISyntaxException {
 
-        var path = Path.of(System.getProperty("java.io.tmpdir"), "SH.txt");
+        var path = Path.of(System.getProperty("java.io.tmpdir"), "wordsFile.txt");
         System.out.println(path);
         System.out.println(Files.exists(path));
 		
