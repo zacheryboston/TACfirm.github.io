@@ -9,10 +9,10 @@
 </properties>
 
   <groupId>CS3354</groupId>
-  <artifactId>introJava</artifactId>
+  <artifactId>OOP</artifactId>
   <version>2.0</version>
 
-  <name>Intro to Java</name>
+  <name>OOP</name>
 
   
    <build>
