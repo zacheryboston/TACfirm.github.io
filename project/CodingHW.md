@@ -2,10 +2,9 @@
  
 
 ## Dataset and Code
-[Amazon Rating data](https://nijianmo.github.io/amazon/index.html)
-* Use *Small* subsets for experimentation as you can directly download the following smaller per-category datasets.
-[data management](https://colab.research.google.com/drive/1Zv6MARGQcrBbLHyjPVVMZVnRWsRnVMpV) - colab notebook to parse and clean the data
-[product search](https://colab.research.google.com/drive/12r4KJVbNqjjhiZ6aeiaG809x4-Tg5fm8?usp=sharing) - colab notebook to find target products and obtain their reviews 
+* [Amazon Rating data](https://nijianmo.github.io/amazon/index.html): use *Small* subsets for experimentation as you can directly download the following smaller per-category datasets.
+* [data management](https://colab.research.google.com/drive/1Zv6MARGQcrBbLHyjPVVMZVnRWsRnVMpV) - colab notebook to parse and clean the data
+* [product search](https://colab.research.google.com/drive/12r4KJVbNqjjhiZ6aeiaG809x4-Tg5fm8?usp=sharing) - colab notebook to find target products and obtain their reviews 
 
 ## Requirements
 
@@ -25,9 +24,8 @@
   * Id (Column A): 
   * degree (Column B): the number of times that specific Id shows up in the raw file.
   * product avg. (Column C): the computation depends if it is a product or a review, see below
-  * product st.dev. (Column D): the computation depends if it is a product or a review, see below
-  * reviewer avg (Column E): the computation depends if it is a product or a review, see below
-  * reviewer st.dev (Column F): the computation depends if it is a product or a review, see below
+  * reviewer avg (Column D): the computation depends if it is a product or a review, see below
+  
 ```
 Id,degree,product avg,reviewer avg
 A00625243BI8W1SSZNLMD,8,4.875,4.486763483 
