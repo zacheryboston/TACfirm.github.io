@@ -8,7 +8,7 @@
 
 ## Requirements
 
-1. Select **ONE** dataset from **Small** subsets for exploratory data analysis 
+1. Select **ONE** dataset from [**Small**](https://nijianmo.github.io/amazon/index.html) subsets for exploratory data analysis 
   * K-cores (i.e., dense subsets): These data have been reduced to extract the k-core, such that each of the remaining users and items have k reviews each. Dataset chosen has to have over **100,000 reviews**
   * Ratings only: These datasets include no metadata or reviews, but only (item,user,rating,timestamp) tuples. Thus they are suitable for use with mymedialite (or similar) packages. Dataset chosen has to have over **600,000 ratings**
 
