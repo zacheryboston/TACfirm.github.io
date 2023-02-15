@@ -49,7 +49,8 @@ For **product** (Id does not start with letter A)
   * reviewer avg (Column D)
 
 5. Compute and output TEN rows for which the discrepancies between product avg and reviewer avg (columns C and D) is the largest. 
-``` Id,degree,product avg,reviewer avg
-```` 
+``` 
+Id,degree,product avg,reviewer avg
+``` 
 
 6. You can have one or more java classes for the project. Submit to class git before the deadline
