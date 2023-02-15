@@ -1,6 +1,6 @@
 # Topic 2: Object Oriented Programming
 
-maven1 project covers the first topic, introduction to Java 
+maven project covers the first topic, introduction to Java 
 
 ## <package_name>
 * [art](src/main/java/art)
