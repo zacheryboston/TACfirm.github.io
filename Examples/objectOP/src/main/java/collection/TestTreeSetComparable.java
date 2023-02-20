@@ -1,7 +1,6 @@
 package collection;
 
 import java.util.TreeSet;
-import java.util.Set;
 
 public class TestTreeSetComparable {
   public static void main(String[] args) {

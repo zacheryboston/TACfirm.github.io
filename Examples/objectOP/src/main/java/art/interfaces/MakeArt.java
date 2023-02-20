@@ -20,7 +20,7 @@ public class MakeArt{
       draw = (Drawing) art2;
     }
     
-    art2.displayArt(artPiece);
+    draw.displayArt(artPiece);
 
     Drawing art3 = cart; //automatic upcasting to Art
     art3.displayArt(artPiece);

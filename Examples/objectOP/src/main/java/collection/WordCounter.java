@@ -1,8 +1,7 @@
-package inputOutput;
+package collection;
 
 import java.util.HashSet;
 import java.util.List;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
@@ -24,9 +23,6 @@ public class WordCounter {
 
         String worthPath = args[0];
         String sentencePath = args[1];
-        String worthPath2 = args[2];
-        String sentencePath2 = args[3];
-
         HashSet<String> dictionary = new HashSet<String>();
 
         try {

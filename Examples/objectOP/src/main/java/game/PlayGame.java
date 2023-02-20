@@ -10,7 +10,7 @@ public class PlayGame {
     BoardGame board = (BoardGame) game;
     //manual downcasting back to Cartoon
     Chess chess = (Chess) board;
-
+    System.out.println(chess);
   }
 
 }
