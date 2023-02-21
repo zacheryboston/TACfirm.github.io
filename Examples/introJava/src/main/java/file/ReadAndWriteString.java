@@ -27,10 +27,10 @@ public class ReadAndWriteString {
         System.out.println(path1);
         System.out.println(Files.readString(path1));        
         
-        Charset charset = Charset.forName("ISO-8859-3");
-        Path path2 = Files.writeString(createTempPath(), testString, charset);
-        System.out.println(path2);
-        String s = Files.readString(path2, charset);
-        System.out.println(s);
+        // Charset charset = Charset.forName("ISO-8859-3");
+        // Path path2 = Files.writeString(createTempPath(), testString, charset);
+        // System.out.println(path2);
+        // String s = Files.readString(path2, charset);
+        // System.out.println(s);
     }
 }

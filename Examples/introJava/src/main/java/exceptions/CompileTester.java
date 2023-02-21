@@ -32,7 +32,17 @@ public class CompileTester {
     }
 
     final String name = null;
-    final int n = name.length();
+    try{
+      final int n = name.length();
+    }
+    catch (NullPointerException e){
+      System.out.println(e);
+      
+    }
+    finally{
+      System.out.print("closing program");
+    }
+    
 
   }
 }

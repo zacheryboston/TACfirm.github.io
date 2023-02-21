@@ -20,7 +20,7 @@ public class TimeConverter {
       totTime = scnr.nextInt();
       
       // convert total minutes to hours and minutes
-      myWatch.convertTime(totTime);
+      // myWatch.convertTime(totTime);
       //System.out.print(totTime + " minutes equals: ");
       //System.out.print(myWatch.hrVal + " hrs ");
       System.out.println(myWatch.convertTime(totTime));

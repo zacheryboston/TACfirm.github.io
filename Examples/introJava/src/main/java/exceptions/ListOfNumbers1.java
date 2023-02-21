@@ -29,5 +29,4 @@ public class ListOfNumbers1{
 	private Vector<Integer> vector;
 	private static final int SIZE = 10;
 
-
 }

@@ -20,7 +20,7 @@ public class WriteToFile {
 		System.out.println("Tracking: "+tracking+"| Type : "+type+"| Volume: "+volume);
 
     //The second parameter to the FileWriter constructor will tell it to append to the file.
-    FileWriter fw = new FileWriter("exampleFileOut.txt", true);
+    FileWriter fw = new FileWriter("exampleFileOutNew.txt", true);
     PrintWriter outFile = new PrintWriter(fw);
 	  outFile.println(tracking+" "+type+" "+volume);
     

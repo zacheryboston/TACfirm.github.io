@@ -7,9 +7,9 @@ import java.io.IOException;
  */
 public class ListWriteTest{
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
 
-      (new ListOfNumbers1()).writeList();
+      // (new ListOfNumbers1()).writeList();
       (new ListOfNumbers2()).writeList();
   
     }
